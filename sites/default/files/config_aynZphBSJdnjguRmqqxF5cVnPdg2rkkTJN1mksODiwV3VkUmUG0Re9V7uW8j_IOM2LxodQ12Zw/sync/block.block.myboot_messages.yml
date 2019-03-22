@@ -1,0 +1,22 @@
+uuid: 94d1c7f3-c37a-4f2c-b3a5-2fcaf99c8925
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - myboot
+_core:
+  default_config_hash: 9RnnTUBcn0WRWXfrGOnId2H0Q31uQUeu_F5TnDxl2yg
+id: myboot_messages
+theme: myboot
+region: header
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,14 @@
+uuid: 4f8f0337-692b-4678-a101-64552b633576
+name: FrontEnd
+mail: aniket.gaikwad@qed42.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

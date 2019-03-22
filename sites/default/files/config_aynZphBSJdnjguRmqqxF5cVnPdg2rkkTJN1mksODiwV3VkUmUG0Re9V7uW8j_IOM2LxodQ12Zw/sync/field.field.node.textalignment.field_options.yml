@@ -1,0 +1,21 @@
+uuid: 60790c0e-0a42-478e-b77f-0229eed0c3fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_options
+    - node.type.textalignment
+  module:
+    - options
+id: node.textalignment.field_options
+field_name: field_options
+entity_type: node
+bundle: textalignment
+label: Options
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

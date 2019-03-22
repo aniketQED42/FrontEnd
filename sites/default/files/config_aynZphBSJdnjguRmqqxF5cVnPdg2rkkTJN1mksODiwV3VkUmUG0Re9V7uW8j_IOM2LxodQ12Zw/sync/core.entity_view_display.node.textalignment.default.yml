@@ -1,0 +1,45 @@
+uuid: 17f2fb44-be3f-4b85-9a1d-87ac74c96cb0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.textalignment.body
+    - field.field.node.textalignment.field_options
+    - field.field.node.textalignment.field_textfield
+    - node.type.textalignment
+  module:
+    - options
+    - text
+    - user
+id: node.textalignment.default
+targetEntityType: node
+bundle: textalignment
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_options:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_textfield:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

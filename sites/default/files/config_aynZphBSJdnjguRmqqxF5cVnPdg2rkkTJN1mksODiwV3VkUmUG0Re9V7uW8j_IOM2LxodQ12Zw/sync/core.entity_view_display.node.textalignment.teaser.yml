@@ -1,0 +1,47 @@
+uuid: 599c4c86-3127-4bb2-a948-d132cc18f49d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.textalignment.body
+    - field.field.node.textalignment.field_options
+    - field.field.node.textalignment.field_textfield
+    - node.type.textalignment
+  module:
+    - options
+    - text
+    - user
+id: node.textalignment.teaser
+targetEntityType: node
+bundle: textalignment
+mode: teaser
+content:
+  body:
+    label: above
+    type: text_summary_or_trimmed
+    weight: 1
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  field_options:
+    type: list_default
+    weight: 3
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  field_textfield:
+    type: text_default
+    weight: 2
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

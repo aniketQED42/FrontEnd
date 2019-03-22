@@ -1,0 +1,21 @@
+uuid: cf909d96-44ed-409b-8e33-a5998f64bad6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_textfield
+    - node.type.textalignment
+  module:
+    - text
+id: node.textalignment.field_textfield
+field_name: field_textfield
+entity_type: node
+bundle: textalignment
+label: Textfield
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
