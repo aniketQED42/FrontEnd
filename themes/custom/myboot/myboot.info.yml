@@ -1,0 +1,15 @@
+name: 'myboot'
+description: 'Uses the jsDelivr CDN for all CSS and JavaScript.'
+core: 8.x
+type: theme
+base theme: bootstrap
+package: 'Bootstrap'
+
+regions:
+  header: 'Top Bar'  
+  content: 'Content'
+  sidebar_first: 'Sidebar'  
+  footer: 'Footer'
+
+libraries:
+  - 'myboot/global-styling'

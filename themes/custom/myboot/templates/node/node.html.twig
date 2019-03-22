@@ -1,0 +1,6 @@
+{% set align = content.field_options[0]['#markup'] %}
+{{ align }}
+<div{{ attributes.addClass(align)}}>
+{{content.field_textfield}}
+</div>
+{{content.field_options}}

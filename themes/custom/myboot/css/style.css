@@ -1,0 +1,14 @@
+.Right {
+  text-align: right;
+  color: red; }
+
+.Left {
+  text-align: left;
+  color: red; }
+
+.Centre {
+  text-align: center;
+  color: red; }
+
+a {
+  color: green; }
