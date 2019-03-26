@@ -1,0 +1,19 @@
+<?php
+function weather_theme($existing, $type, $theme, $path) {
+  return [
+    'weather' => [
+      'variables' => [
+        'image' => null,
+        'city' => null,
+        'description' => null,
+        'mintemp' => null,
+        'maxtemp' => null,
+        'pressure' => null,
+        'humidity' => null,
+        'temp' => null
+
+      ],
+      'template' => 'weather_data'
+    ]
+  ];
+}

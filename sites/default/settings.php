@@ -780,3 +780,4 @@ $databases['default']['default'] = array (
   'unix_socket' => '/Applications/MAMP/tmp/mysql/mysql.sock'
 );
 $config_directories['sync'] = 'sites/default/files/config_aynZphBSJdnjguRmqqxF5cVnPdg2rkkTJN1mksODiwV3VkUmUG0Re9V7uW8j_IOM2LxodQ12Zw/sync';
+$config['system.logging']['error_level'] = 'verbose';

@@ -1,0 +1,12 @@
+{{ attach_library('weather/mystyling') }}
+<div class="myclass" style="background-image:url('{{file_url(image)}}')">
+{{city}}
+{{description}}
+</div>
+<div class="flex-container">
+  <div>  <h5>Min. Temp  </h5>{{mintemp}} </div>  
+  <div>  <h5>Max. Temp  </h5>{{maxtemp}}</div>
+  <div>  <h5>Pressure  </h5>{{pressure}}</div>
+  <div>  <h5>Humidity  </h5>{{humidity}}</div>  
+  <div>  <h5>Temp  </h5>{{temp}}</div>
+</div>

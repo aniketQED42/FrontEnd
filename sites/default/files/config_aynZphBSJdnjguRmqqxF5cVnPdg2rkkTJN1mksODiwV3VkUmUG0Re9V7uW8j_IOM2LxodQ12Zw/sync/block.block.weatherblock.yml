@@ -14,7 +14,11 @@ provider: null
 plugin: weather_block
 settings:
   id: weather_block
-  label: London
+  label: 'My Weather Block'
   provider: weather
   label_display: visible
+  city: Madrid
+  description: Madrid
+  image:
+    - '11'
 visibility: {  }

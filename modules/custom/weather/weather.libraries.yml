@@ -1,0 +1,4 @@
+mystyling:
+  css:
+    theme:
+      css/weather.css: {}
