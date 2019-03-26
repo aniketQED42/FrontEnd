@@ -1,0 +1,4 @@
+type: module
+name: Weather
+description: Returns the weather of cities around the world.
+core: '8.x'

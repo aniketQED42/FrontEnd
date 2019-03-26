@@ -1,0 +1,20 @@
+uuid: 0da18415-3a2b-4e02-ba63-f3014f528415
+langcode: en
+status: true
+dependencies:
+  module:
+    - weather
+  theme:
+    - myboot
+id: weatherblock
+theme: myboot
+region: sidebar_first
+weight: -7
+provider: null
+plugin: weather_block
+settings:
+  id: weather_block
+  label: London
+  provider: weather
+  label_display: visible
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: cab0e3d5-d1c5-49c7-a374-101e35b34af5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.image
+  module:
+    - text
+id: node.image.body
+field_name: body
+entity_type: node
+bundle: image
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

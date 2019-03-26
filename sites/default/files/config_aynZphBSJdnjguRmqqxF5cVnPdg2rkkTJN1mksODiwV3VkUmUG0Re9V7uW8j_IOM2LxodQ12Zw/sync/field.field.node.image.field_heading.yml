@@ -1,0 +1,21 @@
+uuid: fd863e15-3f3f-4964-ba73-780dda6af169
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_heading
+    - node.type.image
+  module:
+    - text
+id: node.image.field_heading
+field_name: field_heading
+entity_type: node
+bundle: image
+label: Heading
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

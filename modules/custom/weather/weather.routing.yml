@@ -1,0 +1,7 @@
+weather.settings:
+  path: '/ConfigForm'
+  defaults:
+    _form: '\Drupal\weather\Form\ConfigForm'
+    _title: 'Config Form for AppID'
+  requirements:
+    _permission: 'administer site configuration'

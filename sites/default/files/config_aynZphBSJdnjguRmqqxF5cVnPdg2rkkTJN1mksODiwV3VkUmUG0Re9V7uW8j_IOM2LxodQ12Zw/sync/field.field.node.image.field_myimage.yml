@@ -1,0 +1,38 @@
+uuid: f1af4c27-2e11-4958-b6cc-2bd21abdf2ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_myimage
+    - node.type.image
+  module:
+    - image
+id: node.image.field_myimage
+field_name: field_myimage
+entity_type: node
+bundle: image
+label: image
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

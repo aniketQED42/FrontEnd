@@ -1,6 +1,14 @@
+{#
 {% set align = content.field_options[0]['#markup'] %}
 {{ align }}
 <div{{ attributes.addClass(align)}}>
 {{content.field_textfield}}
 </div>
 {{content.field_options}}
+{{content}}
+#}
+
+{% set img = file_url(content.field_myimage['#items'].entity.uri.value) %}
+<div class="myclass" style="background-image:url('{{img}}')">
+{{ content.field_heading }}
+</div>

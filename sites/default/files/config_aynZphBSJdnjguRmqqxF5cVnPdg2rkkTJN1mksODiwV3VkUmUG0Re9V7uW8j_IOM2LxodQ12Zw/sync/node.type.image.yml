@@ -1,0 +1,18 @@
+uuid: de1ea410-426b-4c90-a745-63e3e53b3201
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Image
+type: image
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
