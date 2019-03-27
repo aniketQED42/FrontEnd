@@ -1,4 +1,4 @@
-uuid: 0da18415-3a2b-4e02-ba63-f3014f528415
+uuid: 34d5020f-ab2e-40dd-8d8b-03e76f1660e6
 langcode: en
 status: true
 dependencies:
@@ -6,19 +6,19 @@ dependencies:
     - weather
   theme:
     - myboot
-id: weatherblock
+id: london
 theme: myboot
-region: sidebar_first
-weight: -7
+region: content
+weight: 0
 provider: null
 plugin: weather_block
 settings:
   id: weather_block
-  label: 'My Weather Block'
+  label: London
   provider: weather
   label_display: visible
-  city: London
-  description: 'Welcome to the capital of England.'
+  city: Madrid
+  description: Madrid
   image:
-    - '12'
+    - '14'
 visibility: {  }
