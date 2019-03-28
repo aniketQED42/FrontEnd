@@ -9,16 +9,16 @@ dependencies:
 id: london
 theme: myboot
 region: content
-weight: 0
+weight: -7
 provider: null
 plugin: weather_block
 settings:
   id: weather_block
-  label: London
+  label: 'My Weather Block'
   provider: weather
   label_display: visible
   city: Madrid
-  description: Madrid
+  description: 'Welcome to the capital of Spain.'
   image:
-    - '14'
+    - '15'
 visibility: {  }

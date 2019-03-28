@@ -1,3 +1,20 @@
+{#
+/**
+ * @file
+ * Theme override for an item list.
+ *
+ * Available variables:
+ * - image - Path of the image the user uploads while configuring the block.
+ * - city - Variable which holds the name of the city.
+ * - description - Variable which holds the description of the city.
+ * - mintemp - Variable thats holds the minimum temperature of the mentioned city.
+ * - maxtemp - Variable thats holds the maximum temperature of the mentioned city.
+ * - pressure - Variable thats holds the air pressure of the mentioned city.
+ * - humidity - Variable thats holds the humidity of the mentioned city.
+ * @ingroup templates
+ */
+#}
+
 {{ attach_library('weather/mystyling') }}
 <div class="imageclass" style="background-image:url('{{file_url(image)}}')">
     <div class = "city">

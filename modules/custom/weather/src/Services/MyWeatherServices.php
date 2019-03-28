@@ -6,7 +6,7 @@ namespace Drupal\weather\Services;
 
 class MyWeatherServices{
     public $appid;
-  public function myservice($city) {
+    public function myservice($city) {
       //Getting the config form data
     $appid = \Drupal::config('weather.settings')->get('AppID');
     // echo($appid);

@@ -48,10 +48,7 @@ class WeatherBlock extends BlockBase {
     
     $this->setConfigurationValue('city',$form_state->getValue('city'));
     $this->setConfigurationValue('description',$form_state->getValue('description'));
-    $this->setConfigurationValue('image',$form_state->getValue('image'));
-
-    
-      
+    $this->setConfigurationValue('image',$form_state->getValue('image'));       
   }
 
   public function build() {
@@ -75,17 +72,7 @@ class WeatherBlock extends BlockBase {
         '#pressure' => $result['main']['pressure'],
         '#humidity' => $result['main']['humidity'],
         '#temp' => $result['main']['temp']
-    ];
-   
-   
-
-      
-
-    //    print_r($result);
-      // print_r("Min Temp : ".$result['main']['temp_min']);
-      // print_r("Max Temp : ".$result['main']['temp_max']);
-      // print_r("Pressure : ".$result['main']['pressure']);
-      // print_r("Humidity : ".$result['main']['humidity']);  
+    ]; 
     }
 
 }
