@@ -39,8 +39,7 @@ class WeatherBlock extends BlockBase {
         '#upload_location' => 'public://upload/myimage',
         '#title' => $this->t('Upload Image:'),
 
-    ];
-    
+    ];    
     return $form;
   }
 

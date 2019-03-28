@@ -17,8 +17,8 @@ settings:
   label: 'My Weather Block'
   provider: weather
   label_display: visible
-  city: London
-  description: 'Welcome to the capital of England.'
+  city: Pune
+  description: 'Welcome to Pune'
   image:
-    - '12'
+    - '17'
 visibility: {  }

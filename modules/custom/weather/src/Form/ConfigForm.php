@@ -48,6 +48,13 @@ class ConfigForm extends ConfigFormBase {
     return parent::buildForm($form, $form_state);
   }
 
+  public function validateForm(array &$form, FormStateInterface $form_state) {
+    $name = $form_state->getValue('AppID');
+    if($name == null){
+      $form_state->setErrorByName('AppID',$this->t('Please enter a valid AppID'));
+    }
+  }
+
   /** 
    * {@inheritdoc}
    */
