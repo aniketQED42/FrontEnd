@@ -67,16 +67,19 @@ class WeatherBlock extends BlockBase {
     $data = $servicedata->myservice($city);
     $result = Json::decode($data);
     $config = $this->getConfiguration();
+
     $city = ($config['city']);
     $description = ($config['description']);
     $image = ($config['image']);
     $img = \Drupal\file\Entity\File::load($image[0]);
     $imgpath = $img->getFileUri();
+
     $mintmp = $result['main']['temp_min'];
     $maxtmp = $result['main']['temp_max'];
     $pressure = $result['main']['pressure'];
     $humidity = $result['main']['humidity'];
     $temp = $result['main']['temp'];
+
     if ($config['round']=='yes'){
       $roundedmintmp = round($mintmp);
       $roundedmaxtmp = round($maxtmp);
@@ -95,7 +98,7 @@ class WeatherBlock extends BlockBase {
         '#humidity' => $roundedhumidity,
         '#temp' => $roundedtemp,
     ];
-  }    
+  } else{   
   return [    
         '#theme' => 'weather',
         '#image' => $imgpath,
@@ -106,7 +109,7 @@ class WeatherBlock extends BlockBase {
         '#pressure' => $result['main']['pressure'],
         '#humidity' => $result['main']['humidity'],
         '#temp' => $result['main']['temp']
-    ];
+    ];}
     }
 
 }
