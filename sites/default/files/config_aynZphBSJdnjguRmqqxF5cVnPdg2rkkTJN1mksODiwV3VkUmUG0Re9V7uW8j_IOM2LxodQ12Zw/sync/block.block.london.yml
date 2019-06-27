@@ -18,7 +18,12 @@ settings:
   provider: weather
   label_display: visible
   city: Madrid
-  description: 'Welcome to the capital of Spain.'
-  image:
-    - '15'
+  description: Madrid
+  image: {  }
+  roundoff:
+    'yes': 'yes'
+    'no': 0
+  round:
+    'yes': 'yes'
+    'no': 0
 visibility: {  }

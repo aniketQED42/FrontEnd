@@ -8,8 +8,8 @@ dependencies:
     - myboot
 id: weatherblock
 theme: myboot
-region: sidebar_first
-weight: -7
+region: content
+weight: -5
 provider: null
 plugin: weather_block
 settings:
@@ -17,8 +17,11 @@ settings:
   label: 'My Weather Block'
   provider: weather
   label_display: visible
-  city: Pune
-  description: 'Welcome to Pune'
+  city: Madrid
+  description: Madrid
   image:
-    - '17'
+    - '22'
+  round:
+    'yes': 'yes'
+    'no': 0
 visibility: {  }
